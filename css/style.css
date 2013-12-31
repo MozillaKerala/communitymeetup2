@@ -18,10 +18,11 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
+html{
+  overflow-x: hidden;
+ }
 body {
   line-height: 1;
-  overflow-x: hidden;
 }
 
 ol, ul {

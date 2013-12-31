@@ -18,10 +18,11 @@ time, mark, audio, video {
   font: inherit;
   vertical-align: baseline;
 }
-
+html{
+  overflow-x: hidden;
+  }
 body {
   line-height: 1;
-  overflow-x: hidden;
 }
 
 ol, ul {
@@ -274,7 +275,6 @@ input[type="submit"]::-moz-focus-inner {
   margin: 0 auto;
   width: 320px;
   padding: 0 20px;
-  overflow: hidden;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
