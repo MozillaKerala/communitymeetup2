@@ -1,0 +1,259 @@
+.social-sprite, .social-bb, .social-fb, .social-google, .social-tw {
+  background: url('../images/social-s52266e0faa.png') no-repeat;
+}
+
+.social-bb {
+  background-position: 0 -54px;
+  height: 44px;
+  width: 44px;
+}
+.social-bb:hover, .social-bb.bb_hover, .social-bb.bb-hover {
+  background-position: 0 0;
+}
+
+.social-fb {
+  background-position: 0 -324px;
+  height: 44px;
+  width: 44px;
+}
+.social-fb:hover, .social-fb.fb_hover, .social-fb.fb-hover {
+  background-position: 0 -378px;
+}
+
+.social-google {
+  background-position: 0 -108px;
+  height: 44px;
+  width: 44px;
+}
+.social-google:hover, .social-google.google_hover, .social-google.google-hover {
+  background-position: 0 -162px;
+}
+
+.social-tw {
+  background-position: 0 -270px;
+  height: 44px;
+  width: 44px;
+}
+.social-tw:hover, .social-tw.tw_hover, .social-tw.tw-hover {
+  background-position: 0 -216px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 70px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 30px;
+  }
+
+  h4 {
+    font-size: 24px;
+  }
+
+  header nav ul {
+    display: block;
+  }
+
+  .content {
+    padding-top: 96px;
+  }
+  .content .subheader {
+    padding-top: 190px;
+    min-height: 600px;
+  }
+  .content .subheader span {
+    background: url('../images/line2.png') no-repeat 100% 50%;
+  }
+  .content .subheader span h4 {
+    background: url('../images/line2.png') no-repeat 0 50%;
+    padding: 0 115px;
+  }
+  .content .subheader .down {
+    margin-top: 175px;
+    margin-bottom: 50px;
+  }
+
+  .container {
+    width: 768px;
+    padding: 0 40px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+
+  section {
+    padding: 80px 0;
+  }
+
+  header {
+    overflow: hidden;
+    height: 96px;
+  }
+  .ie8 header {
+    border-bottom: 1px solid #e3e7ec;
+  }
+  header .logo {
+    top: 35px;
+  }
+  header .logo img {
+    width: 269px;
+  }
+  header nav {
+    position: static;
+    right: auto;
+    top: auto;
+    height: 96px;
+    line-height: 96px;
+    width: auto;
+    float: right;
+    background: none;
+    cursor: normal;
+  }
+  header nav ul {
+    position: static;
+    top: auto;
+    right: auto;
+    width: auto;
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1;
+    visibility: visible;
+  }
+  .ie7 header nav ul, .ie8 header nav ul {
+    display: block;
+  }
+  header nav ul li {
+    height: 96px;
+    line-height: 96px;
+    width: auto;
+    border-top: none;
+    float: left;
+    margin-left: 30px;
+  }
+  header nav ul li:first-child {
+    margin-left: 0;
+  }
+  .ie8 header nav ul li:first-child {
+    border-top: none;
+  }
+  header nav ul li:first-child a {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+  }
+  header nav ul li a {
+    background-color: #fff;
+  }
+  header nav ul li a:hover, header nav ul li a.active {
+    color: #ff605a;
+  }
+
+  #about ul {
+    font-size: 0;
+  }
+  #about li {
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: top;
+    width: 304px;
+    border: none;
+    padding: 40px 0 40px 40px;
+    border-top: 2px solid #e3e7ec;
+    border-left: 2px solid #e3e7ec;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  #about li:first-child, #about li:first-child + li + li, #about li:first-child + li + li + li + li, #about li:first-child + li + li + li + li + li + li {
+    padding-right: 39px;
+    padding-left: 0;
+    border-left: none;
+  }
+  #about li:first-child, #about li:first-child + li {
+    border-top: none;
+    padding-top: 0;
+  }
+  #about li:last-child {
+    padding-bottom: 0;
+  }
+  #about li + li {
+    margin-top: 0;
+  }
+
+
+  #contact form .left {
+    width: 324px;
+  }
+  #contact form .left.righ {
+    float: right;
+    text-align: right;
+  }
+  #contact #map {
+    margin-top: 80px;
+  }
+  #contact .contact_info {
+    width: 500px;
+    margin-left: -230px;
+    top: -300px;
+  }
+
+  footer {
+    padding-bottom: 33px;
+  }
+  footer .left {
+    float: left;
+    text-align: left;
+  }
+  footer .right {
+    float: right;
+  }
+  footer small {
+    padding-top: 5px;
+    margin-bottom: 0;
+  }
+  footer small i {
+    display: inline;
+  }
+}
+@media (min-width: 960px) {
+  .container {
+    width: 960px;
+    padding: 0;
+  }
+
+  #about li, #faq li {
+    width: 479px;
+    text-align: left;
+  }
+  #about li span, #faq li span {
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 10px;
+  }
+  #about li p, #faq li p {
+    clear: none;
+  }
+
+  #contact form .left {
+    width: 459px;
+  }
+
+  footer {
+    padding: 50px 0;
+  }
+  footer .container small {
+    display: inline-block;
+    margin-top: 0;
+  }
+  footer .container .left {
+    padding-top: 10px;
+  }
+  footer .container .left > a {
+    margin-right: 30px;
+  }
+}
+http://www.google.com/intl/en-US_US/help/terms_maps.html
