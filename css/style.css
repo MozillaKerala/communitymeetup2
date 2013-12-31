@@ -939,4 +939,40 @@ margin: 0;
   .container {
     width: 100%;
   }
+  .layout #to_the_top{
+    display:none !important;
+  }
+  #contact .contact_info{
+    top:-350px;
+  }
 }
+@media (max-width:490px){
+  .down{
+    display:none !important;
+  }
+  #map{
+      display:none !important;
+
+  }
+  #contact{
+    width:100%;
+    height:300px;
+  }
+  #contact h2{
+    positon:relative;
+  }
+#contact .contact_info{
+    width:100%;
+    margin-left: 0px;
+    top:0px !important;
+    box-shadow: none;
+    left:0px;
+    z-index: 0;
+    border-radius: 0px;
+  }
+footer{
+  padding-top:70px;
+}
+
+}
+
