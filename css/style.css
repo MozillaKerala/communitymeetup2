@@ -21,6 +21,7 @@ time, mark, audio, video {
 
 body {
   line-height: 1;
+  overflow-x: hidden;
 }
 
 ol, ul {
@@ -74,54 +75,6 @@ transition: all .5s;
 }
 .icons-join {
   background-image: url(../images/chef-man.png);
-}
-
-
-/* SPRITES contact form */
-.form-sprite, .form-email, .form-error, .form-message, .form-name, .form-phone {
-  background: url('../images/form-s13b8ee05b4.png') no-repeat;
-}
-
-.form-email {
-  background-position: 0 0;
-  height: 46px;
-  width: 49px;
-}
-.form-email:hover, .form-email.email_hover, .form-email.email-hover {
-  background-position: 0 -3046px;
-}
-
-.form-error {
-  background-position: 0 -6092px;
-  height: 48px;
-  width: 49px;
-}
-
-.form-message {
-  background-position: 0 -9140px;
-  height: 46px;
-  width: 49px;
-}
-.form-message:hover, .form-message.message_hover, .form-message.message-hover {
-  background-position: 0 -12186px;
-}
-
-.form-name {
-  background-position: 0 -15232px;
-  height: 46px;
-  width: 49px;
-}
-.form-name:hover, .form-name.name_hover, .form-name.name-hover {
-  background-position: 0 -18278px;
-}
-
-.form-phone {
-  background-position: 0 -21324px;
-  height: 47px;
-  width: 49px;
-}
-.form-phone:hover, .form-phone.phone_hover, .form-phone.phone-hover {
-  background-position: 0 -24371px;
 }
 
 /* SPRITES contact form */
@@ -910,7 +863,6 @@ margin: 0;
   z-index: 10;
 }
 #contact form {
-  overflow: hidden;
   text-align: center;
 }
 #contact form .left {
@@ -982,38 +934,6 @@ margin: 0;
   background-position: 0 -60px;
 }
 
-@media (max-width: 540px) {
-  #clients .slider1 {
-    margin: 0 auto;
-    display: block;
-    overflow: hidden;
-  }
-  #clients .slider1 .slide {
-    display: inline-block;
-    width: 40%;
-    height: 60px;
-    line-height: 60px;
-    border-top: 2px solid rgba(255, 255, 255, 0.1);
-  }
-  #clients .slider1 .slide:nth-child(2n+1) {
-    border-right: 2px solid rgba(255, 255, 255, 0.1);
-  }
-  #clients .slider1 .slide:first-child, #clients .slider1 .slide:first-child + div {
-    border-top: none;
-  }
-  #clients .slider1 .slide a {
-    width: 75%;
-    height: 60px;
-    margin: 0 auto;
-    display: table;
-    border-collapse: collapse;
-  }
-  #clients .slider1 .slide a img {
-    display: table-cell;
-    max-width: 100px;
-    vertical-align: middle;
-  }
-}
 @media (max-width: 767px) {
   .container {
     width: 100%;
