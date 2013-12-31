@@ -152,10 +152,10 @@
     color: #ff605a;
   }
 
-  #about ul {
+  .lists ul {
     font-size: 0;
   }
-  #about li {
+  .lists li {
     font-size: 16px;
     display: inline-block;
     vertical-align: top;
@@ -256,3 +256,4 @@
     margin-right: 30px;
   }
 }
+http://www.google.com/intl/en-US_US/help/terms_maps.html

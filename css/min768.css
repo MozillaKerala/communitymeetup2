@@ -152,10 +152,10 @@
     color: #ff605a;
   }
 
-  #about ul {
+  .lists ul {
     font-size: 0;
   }
-  #about li {
+  .lists li {
     font-size: 16px;
     display: inline-block;
     vertical-align: top;
@@ -168,19 +168,19 @@
     -moz-box-sizing: border-box;
     box-sizing: border-box;
   }
-  #about li:first-child, #about li:first-child + li + li, #about li:first-child + li + li + li + li, #about li:first-child + li + li + li + li + li + li {
+  .lists li:first-child, .lists li:first-child + li + li, .lists li:first-child + li + li + li + li, .lists li:first-child + li + li + li + li + li + li {
     padding-right: 39px;
     padding-left: 0;
     border-left: none;
   }
-  #about li:first-child, #about li:first-child + li {
+  .lists li:first-child, .lists li:first-child + li {
     border-top: none;
     padding-top: 0;
   }
-  #about li:last-child {
+  .lists li:last-child {
     padding-bottom: 0;
   }
-  #about li + li {
+  .lists li + li {
     margin-top: 0;
   }
 
@@ -225,16 +225,16 @@
     padding: 0;
   }
 
-  #about li, #faq li {
+  .lists li, #faq li {
     width: 479px;
     text-align: left;
   }
-  #about li span, #faq li span {
+  .lists li span, #faq li span {
     float: left;
     margin-right: 40px;
     margin-bottom: 10px;
   }
-  #about li p, #faq li p {
+  .lists li p, #faq li p {
     clear: none;
   }
 

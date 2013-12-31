@@ -844,24 +844,24 @@ section {
   text-align: center;
 }
 
-#about li , #faq li{
+.lists li{
   padding-top: 40px;
   border-top: 2px solid #e3e7ec;
 }
-#about li *:last-child, #faq li *:last-child {
+.lists li *:last-child {
   margin-bottom: 0;
 }
-#about li:first-child, #faq li:first-child {
+.lists li:first-child{
   padding-top: 0;
   border-top: 0;
 }
-#about li span, #faq li span {
+.lists li span {
   width: 96px;
   height: 96px;
   display: block;
   margin: 0 auto 35px;
 }
-#about li + li , #faq li + li {
+.lists li + li {
   margin-top: 40px;
 }
 
@@ -869,7 +869,15 @@ section {
 	  background:#f7f7f7 ;
 	  padding: 50px 0
 	  padding: 50px 0
-	}
+}
+.reg_form{
+	max-width: 100%;
+	width: 700px;
+	height: 998px;}
+.reg_a{
+		border-bottom: 1px solid #c1423d;
+		display: block;;
+}
 .veg {
 background: url('../images/suitable-vegetarians.png');
 background-repeat: no-repeat;

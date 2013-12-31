@@ -59,7 +59,7 @@
         </div><!-- end of container in subheader -->
 
       </div> 
-      <section id="about">
+      <section id="about" class="lists">
 
         <div class="container">
         <h2>Frequently Asked Questions (FAQ)</h2>
