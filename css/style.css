@@ -279,6 +279,9 @@ input[type="submit"]::-moz-focus-inner {
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
+.container>p{
+  text-align: justify;
+}
 
 .left {
   float: left;
