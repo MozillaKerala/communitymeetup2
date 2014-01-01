@@ -196,6 +196,7 @@ a:hover {
 p {
   margin-bottom: 20px;
   clear: both;
+  text-align: justify;
 }
 
 img {
@@ -278,9 +279,6 @@ input[type="submit"]::-moz-focus-inner {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-}
-.container>p{
-  text-align: justify;
 }
 
 .left {
