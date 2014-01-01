@@ -1,5 +1,15 @@
 $(document).ready( function () {
 
+    var email = {};
+        email['head'] = 'events',
+        email['body'] = 'mozillakerala',
+        email['tail'] = 'org';
+
+    var joined = email['head'] + '@' + email['body'] + '.' + email['tail'];
+
+    $('.mozk-email-obfuscated').html('<a href="mailto: ' + joined + '" >' + joined + '</a>');
+
+
     $('textarea').autosize();
 
     //header links
@@ -383,4 +393,4 @@ var styles = [ ]
 
 
 map.mapTypes.set('map', styledMap);
-map.setMapTypeId('map');    
+map.setMapTypeId('map');

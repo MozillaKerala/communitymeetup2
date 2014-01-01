@@ -827,7 +827,7 @@ section {
 .reg_form{
 	max-width: 100%;
 	width: 700px;
-	height: 998px;}
+	height: 1035px;}
 .reg_a{
 		color:#c1423d;
 		text-decoration: underline;
@@ -855,6 +855,14 @@ margin: 0;
 	}
 #conf * {
   color: #fff;
+}
+
+.link-black {
+    color: rgb(103, 114, 126);
+}
+
+#conf .container a {
+    border-bottom: 1px dotted silver;
 }
 #contact {
   padding-bottom: 0;
