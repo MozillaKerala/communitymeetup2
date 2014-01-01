@@ -196,6 +196,7 @@ a:hover {
 p {
   margin-bottom: 20px;
   clear: both;
+  text-align: justify;
 }
 
 img {
