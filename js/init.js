@@ -240,7 +240,7 @@ $(document).ready( function () {
     var top_ofset = $('header').height() - 1;
 
 
-    $('header li a, .logo, .down, .subheader .btn, footer .container > a').click(function(){
+    $('header li a, .logo, .down, .subheader .btn, footer .container > a, .link_slide').click(function(){
       $('html, body').animate({
         scrollTop: $( $(this).attr('href') ).offset().top - top_ofset
       }, 1000);
