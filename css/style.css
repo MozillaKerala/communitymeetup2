@@ -929,6 +929,10 @@ margin: 0;
   display: block;
 }
 
+.register_subtitle {
+    text-align: center;
+}
+
 #to_the_top {
   position: fixed;
   bottom: 30px;
